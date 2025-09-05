@@ -1,81 +1,93 @@
-HR Analytics Dashboard – Power BI Project
+📊 HR Analytics Dashboard – Power BI Project
 📌 Project Overview
 
-This project demonstrates an end-to-end HR Analytics solution using Power BI. The goal is to analyze employee-related data, identify key HR trends, and provide actionable insights for decision-making.
+This project demonstrates an end-to-end HR Analytics solution using Power BI.
+The goal is to analyze employee presence, work-from-home (WFH), and sick leave (SL) trends to provide actionable insights for HR decision-making.
 
 🎯 Objectives
 
-Analyze employee attrition, retention, and performance.
+Analyze employee presence, WFH%, and sick leave patterns
 
-Build an interactive HR dashboard for stakeholders (HR managers, leadership).
+Build an interactive dashboard for HR managers & leadership
 
-Derive insights to support data-driven HR policies.
+Identify seasonal/weekly patterns that influence attrition and productivity
 
 🛠️ Tools & Technologies
 
-Power BI – Data visualization and dashboard building
+Power BI – Data visualization & dashboard building
 
-Power Query – Data extraction, cleaning, and transformation
+Power Query – Data cleaning & transformation
 
-DAX (Data Analysis Expressions) – Creating calculated columns and measures
+DAX (Data Analysis Expressions) – Measures & calculated columns
 
 Excel / CSV Dataset – Raw HR data
 
 📊 Key Features
 
-Interactive dashboard with filters & slicers (department, gender, education, etc.)
+Interactive dashboard with filters & slicers (month, department, employee)
 
-KPIs: Attrition Rate, Retention Rate, Average Age, Job Satisfaction Index
+KPIs: Presence %, WFH %, Sick Leave %
 
-Department-wise and role-wise analysis of attrition
+Weekly analysis (Fri had highest WFH ~13%, Tue had max attendance ~93%)
 
-Clear visualization of employee demographics & trends
+Seasonal trends (June showed higher sick leaves due to heat)
+
+Combined multiple sheets (April, May, June 2022) into one clean dataset
+
+Custom DAX measures created:
+
+Presence %
+
+WFH %
+
+SL %
 
 📂 Project Structure
-
-Data/ – HR dataset (CSV/Excel)
-
-Dashboard.pbix – Power BI dashboard file
-
-Screenshots/ – Images of the dashboard for quick view
-
-README.md – Project documentation (this file)
+HR-Analytics/
+│
+├── Data/              # HR datasets (CSV/Excel)  
+├── Dashboard.pbix      # Power BI dashboard file  
+├── Screenshots/        # Dashboard preview images  
+└── README.md           # Project documentation  
 
 📈 Dashboard Preview
 
-(Insert screenshots or GIFs of your Power BI dashboard here)
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ed0b7073-f548-482f-9be1-0a686d64f0d6" />
+
 
 🔍 Insights from Analysis
 
-Higher attrition rate in early career employees.
+Friday shows the highest WFH % (~13%)
 
-R&D department shows the highest turnover compared to others.
+Tuesday records maximum attendance (~93%)
 
-Job satisfaction and environment score strongly influence attrition.
+Sick leave was higher in June (seasonal heat effect)
 
-Insights help HR managers design retention strategies.
+Such insights help HR managers design better attendance & retention policies
 
 🚀 How to Use
 
 Clone this repository
 
-git clone https://github.com/your-username/hr-analytics-dashboard.git
+git clone https://github.com/Arya7107418/HR-Analytics.git
 
 
-Open the Dashboard.pbix file in Power BI Desktop
+Open Dashboard.pbix in Power BI Desktop
 
-Explore the interactive dashboard using available slicers and filters
+Explore the dashboard using filters and slicers
 
 📌 Learning Outcomes
 
-Hands-on experience in Power BI, Power Query, and DAX
+Hands-on experience in Power BI, Power Query, DAX
 
-Improved ability to translate business problems into data-driven insights
+Ability to transform raw HR data into business-ready insights
 
-Practical understanding of HR analytics use cases
+Understanding of HR analytics & workforce patterns
 
 📧 Contact
 
-For queries or collaboration:
-Your Name – LinkedIn
- | Email
+👩‍💻 Anjali Arya
+
+LinkedIn
+
+📩 Email: anjaliarya1007@gmail.com
