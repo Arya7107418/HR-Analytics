@@ -125,6 +125,3 @@ HR-Analytics/
 ---
 
 *💡 This project showcases end-to-end analytics capability from data acquisition to strategic business insights. Open to discussing how similar solutions can drive organizational success in your business context.*
-
----
-*💡 This project showcases end-to-end analytics capability from data acquisition to strategic business insights. Open to discussing how similar solutions can drive organizational success in your business context.*
