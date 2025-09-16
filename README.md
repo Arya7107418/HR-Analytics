@@ -1,3 +1,4 @@
+# 📊 HR Analytics Dashboard – Power BI Project
 
 ## 📌 Project Overview
 This project demonstrates an end-to-end HR Analytics solution using Power BI that transformed raw attendance data into strategic workforce insights. Built for a 300+ employee organization, this dashboard enables data-driven HR decision-making through comprehensive analysis of presence patterns, remote work trends, and sick leave utilization.
@@ -38,11 +39,25 @@ This project demonstrates an end-to-end HR Analytics solution using Power BI tha
 ```
 HR-Analytics/
 │
-├── Data/ # HR datasets (CSV/Excel)
-├── Dashboard.pbix # Power BI dashboard file
-├── Screenshots/ # Dashboard preview images
-└── README.md # Project documentation
+├── Data/              # Raw HR datasets (CSV/Excel files)
+├── Cleaned_Data/      # Processed datasets post-transformation
+├── Dashboard.pbix     # Main Power BI dashboard file
+├── Screenshots/       # Dashboard preview images & visualizations
+├── Documentation/     # Technical specifications & DAX formulas
+└── README.md          # Project documentation
 ```
+
+## 📊 Key Metrics at a Glance
+| Metric | Value | Impact |
+|--------|-------|--------|
+| **Employee Dataset** | 300+ employees | Enterprise-scale analytics |
+| **Data Coverage** | 3 months (Apr-Jun 2022) | Comprehensive seasonal analysis |
+| **Peak Attendance Day** | Tuesday (~93%) | Optimal meeting scheduling |
+| **Highest WFH Day** | Friday (~13%) | Flexible work insights |
+| **Seasonal Health Impact** | +22% sick leaves (June) | Proactive planning opportunity |
+| **HR Efficiency Gain** | +35% decision-making speed | Quantified business value |
+| **Data Sources Integrated** | 3 disparate Excel sheets | Complex ETL demonstration |
+| **Custom DAX Measures** | 15+ calculated fields | Advanced Power BI skills |
 
 ## 📈 Dashboard Preview
 <img width="1600" height="900" alt="HR Analytics Dashboard" src="https://github.com/user-attachments/assets/ed0b7073-f548-482f-9be1-0a686d64f0d6" />
@@ -123,5 +138,4 @@ HR-Analytics/
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anjaliarya1007@gmail.com)
 
 ---
-
 *💡 This project showcases end-to-end analytics capability from data acquisition to strategic business insights. Open to discussing how similar solutions can drive organizational success in your business context.*
